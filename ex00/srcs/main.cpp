@@ -6,7 +6,7 @@
 /*   By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/11 15:21:39 by hugo-mar          #+#    #+#             */
-/*   Updated: 2025/08/18 20:04:06 by hugo-mar         ###   ########.fr       */
+/*   Updated: 2025/08/18 20:17:34 by hugo-mar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ int main(void) {
     std::cout << "min(a, b) = " << ::min(a, b) << std::endl;
     std::cout << "max(a, b) = " << ::max(a, b) << std::endl;
 
-    std::string c = "word1";
-    std::string d = "word2";
+    std::string c = "chaine1";
+    std::string d = "chaine2";
 
     ::swap(c, d);
     std::cout << "c = " << c << ", d = " << d << std::endl;
